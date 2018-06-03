@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.magarex.emergencyalert.AddContacts">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/number1"
+        android:hint="Add Phone Number"
+        android:textSize="21dp"
+        android:singleLine="false"
+        android:phoneNumber="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/number2" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/number2"
+        android:layout_below="@+id/number1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:hint="Add Phone Number"
+        android:textSize="21dp"
+        android:singleLine="false"
+        android:phoneNumber="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/number3"
+        android:layout_below="@+id/number2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:hint="Add Phone Number"
+        android:textSize="21dp"
+        android:singleLine="false"
+        android:phoneNumber="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="Save"
+        android:id="@+id/savebtn"
+        android:textSize="21dp"
+        android:textColor="#ff0008be"
+        android:layout_above="@+id/cancelbtn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="10dp"
+        android:clickable="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="Cancel"
+        android:id="@+id/cancelbtn"
+        android:textSize="21dp"
+        android:textColor="#ff0008be"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
